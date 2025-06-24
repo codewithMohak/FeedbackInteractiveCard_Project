@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./src/output.css">
+</head>
+
+<body class=" text-white font-Overpass">
+
+  <main class="min-h-screen flex justify-center items-center bg-amber-50" id="mainContainer">
+    
+      <div class="bg-radial from-gray-700 from-20% to-gray-800  rounded-xl p-6 w-full max-w-sm shadow-lg space-y-6 " id="ratingCard">
+
+        <div class="bg-gray-700 rounded-full w-10 h-10 justify-center items-center inline-flex ">
+          <img src="./images/icon-star.svg" alt="" class="w-5  mx-auto">
+        </div>
+
+        <div class="space-y-3">
+          <h2 class="text-xl md:text-2xl font-bold">How did we do?</h2>
+          <p class="text-sm md:text-base text-gray-300">Please let us know how we did with your support request. All feedback is appreciated
+            to help us improve our offering!
+          </p>
+        </div>
+
+        <div class=" flex justify-between text-sm space-y-3 flex-wrap" >
+          <button value="1" class="rating bg-gray-700 w-10 h-10 rounded-full hover:bg-orange-500 transition">1</button>
+          <button value="2" class="rating bg-gray-700 w-10 h-10 rounded-full hover:bg-orange-500 transition">2</button>
+          <button value="3" class="rating bg-gray-700 w-10 h-10 rounded-full hover:bg-orange-500 transition">3</button>
+          <button value="4" class="rating bg-gray-700 w-10 h-10 rounded-full hover:bg-orange-500 transition">4</button>
+          <button value="5" class="rating bg-gray-700 w-10 h-10 rounded-full hover:bg-orange-500 transition">5</button>
+
+        </div>
+
+        <button class="bg-orange-500 w-full py-2 rounded-3xl text-black font-bold uppercase tracking-widest hover:bg-gray-300 transition" id="submitBtn">
+          Submit</button>
+      </div>
+    </div>
+    </div>
+  </main>
+  <script src="./script.js"></script>
+</body>
+
+</html>

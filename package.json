@@ -1,0 +1,20 @@
+{
+  "name": "design",
+  "version": "1.0.0",
+  "description": "Interaction rating card",
+  "keywords": [
+    "chai",
+    "interaction"
+  ],
+  "license": "ISC",
+  "author": "Mohak Agarwal",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.10",
+    "tailwindcss": "^4.1.10"
+  }
+}
